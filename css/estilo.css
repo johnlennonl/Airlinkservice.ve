@@ -67,7 +67,7 @@ body {
     color: #cfef00;
 }
 .textoNav{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color: #cfef00;
 }
 
@@ -89,7 +89,18 @@ body {
     
 }
 
-/* Loader */
+/* iconos Flotantes */
+.logotipoF {
+    width: 100px;
+    object-fit: contain;
+    aspect-ratio: 3/2;  
+    cursor: pointer;
+    transition: all 0.4s;;
+}
+
+.logotipoF:hover{
+    transform: scale(1.5);
+}
 
 
 
