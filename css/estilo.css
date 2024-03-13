@@ -103,10 +103,11 @@ body {
 }
 
 .iphoneContact{
+    width: 370px ;
     transition: all 0.3s;;
 }
 .iphoneContact:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 em {
     color: #cfef00;
