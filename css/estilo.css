@@ -16,7 +16,7 @@ body {
 }
 /* Buttons de Nav*/
 .btnNav {
-    font-size: 14px;
+    font-size: 12px;
     color: #cfef00;
     font-family: inherit;
     font-weight: 800;
@@ -67,7 +67,7 @@ body {
     color: #cfef00;
 }
 .textoNav{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     color: #cfef00;
 }
 
