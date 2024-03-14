@@ -191,3 +191,7 @@ label {
     transform: scale(1.1);
     filter: drop-shadow(5px 5px 15px #cfef00);
 }
+
+a {
+    text-decoration: none;
+}
