@@ -1,0 +1,193 @@
+body {
+    background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(55,53,53, 0) 72%, rgba(55,53,53, 0) 86%,rgba(10,10,10, 0) 86%, rgba(10,10,10, 0) 100%),linear-gradient(90deg, rgb(1,1,12),rgb(10,2,32));
+
+    
+    
+}
+
+/*Logotip*/
+.logotipo {
+    width: 250px;
+}
+
+.aNav{
+    color: rgb(223, 223, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+/* Buttons de Nav*/
+.btnNav {
+    font-size: 12px;
+    color: #cfef00;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.btnNav:focus,
+.btnNav:hover {
+    color: #e1e1e1;
+}
+
+.btnNav:focus:after,
+.btnNav:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.btnNav:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.aNav:hover{
+    color: #cfef00;
+}
+
+.divNav{
+    background-color: rgba(3, 3, 3, 0.938);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #cfef00;
+}
+.textoNav{
+    font-size: 0.7rem;
+    color: #cfef00;
+}
+
+/* form */
+.tituloBanner{
+    font-size: 4rem;
+    color: #cfef00;
+}
+.textoBanner {
+    color: whitesmoke;
+}
+
+.FormularioPago{
+    box-shadow: rgba(179, 179, 180, 0.1) 0px 0px 16px;
+    background-color: #36353578;
+    color: #eeeeee;
+    font-weight: 600;
+    
+}
+
+label {
+    color: #222222;
+}
+
+/* BTN CARD */
+.buttonCard {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.buttonCard:hover {
+    background: #c4e201;
+    color: #525252;
+}
+
+.buttonCard > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+}
+
+.buttonCard:hover svg {
+    transform: translateX(5px);
+}
+
+.buttonCard:active {
+    transform: scale(0.95);
+}
+
+.bgCard{
+    background: #cfef00;
+}
+
+.logoPago {
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.4s;;
+}
+
+.logoPago:hover{
+    transform: scale(1.1);
+}
+
+/* Titulo Planes */
+.buttonPlanes {
+    font-size: 2rem;
+    color: #cfef00;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.buttonPlanes:focus,
+.buttonPlanes:hover {
+    color: #e1e1e1
+}
+
+.buttonPlanes:focus:after,
+.buttonPlanes:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.buttonPlanes:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.iphonePago {
+    transition: all 0.3s;;
+    filter: drop-shadow(1px 1px 8px #cfef00);
+}
+.iphonePago:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 15px #cfef00);
+}
