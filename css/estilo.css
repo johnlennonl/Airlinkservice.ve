@@ -253,6 +253,9 @@ iframe {
 a {
     text-decoration: none;
 }
-
-
-
+.textIg{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    color: #cfef00;
+}
