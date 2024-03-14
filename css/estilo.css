@@ -176,7 +176,7 @@ em {
 
 .buttonCard:hover {
     background: #c4e201;
-    color: #525252;
+    color: #000000;
 }
 
 .buttonCard > svg {
@@ -250,7 +250,9 @@ em {
 iframe {
     border-radius: 20px;
 }
-
+a {
+    text-decoration: none;
+}
 
 
 
